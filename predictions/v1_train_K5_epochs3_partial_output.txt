@@ -1,0 +1,1013 @@
+███████████████████████████████████Training  :  93%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  :  93%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  :  94%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  :  94%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  :  95%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  :  95%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  :  95%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  :  95%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  :  96%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  :  96%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  :  97%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  :  97%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  :  97%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  :  97%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  :  98%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  :  98%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  :  99%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  :  99%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  :  99%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  :  99%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  : 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████Training  : 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 150/150 [6:20:32<00:00, 152.22s/it, loss=0.109]
+Training  :   0%|                                                                                                                                                    | 0/150 [00:00<?, ?it/s]
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+Training  : 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 150/150 [1:25:05<00:00, 34.03s/it, loss=0.0441]
+
+- model saved to: working/model/v1_K5_epochs3_0.bin.biobert-base-cased
+
+Predicting:   0%|                                                                                                                                                    | 0/150 [00:00<?, ?it/s]
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+Predicting: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 150/150 [07:16<00:00,  2.91s/it]
+
+Acc: 0.933      F1:0.926       P: 0.921   R: 0.931 
+
+
+AVG of 1 folds  |  Acc: 0.933    F1:0.926       P: 0.921   R: 0.931 
+
+
+ALL: 5982   TRAIN: 4785   TEST: 1197
+Building sklearn text classifier...
+BertClassifier(bert_model='biobert-base-cased', random_state=0,
+               validation_fraction=0.0)
+Loading biobert-base-cased model...
+Defaulting to linear classifier/regressor
+Loading Tensorflow checkpoint from  model.ckpt-1000000
+train data size: 4785, validation data size: 0
+Training  :   0%|                                                                                                                                                    | 0/150 [00:00<?, ?it/s]
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+Training  : 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 150/150 [1:23:50<00:00, 33.54s/it, loss=0.401]
+Training  :   0%|                                                                                                                                                    | 0/150 [00:00<?, ?it/s]
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+Training  : 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 150/150 [1:23:53<00:00, 33.55s/it, loss=0.105]
+Training  :   0%|                                                                                                                                                    | 0/150 [00:00<?, ?it/s]
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+Training  : 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 150/150 [1:23:46<00:00, 33.51s/it, loss=0.0426]
+
+- model saved to: working/model/v1_K5_epochs3_1.bin.biobert-base-cased
+
+Predicting:   0%|                                                                                                                                                    | 0/150 [00:00<?, ?it/s]
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+Predicting: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 150/150 [06:40<00:00,  2.67s/it]
+
+Acc: 0.942      F1:0.935       P: 0.927   R: 0.944 
+
+
+AVG of 2 folds  |  Acc: 0.938    F1:0.931       P: 0.924   R: 0.937 
+
+
+ALL: 5982   TRAIN: 4786   TEST: 1196
+Building sklearn text classifier...
+BertClassifier(bert_model='biobert-base-cased', random_state=0,
+               validation_fraction=0.0)
+Loading biobert-base-cased model...
+Defaulting to linear classifier/regressor
+Loading Tensorflow checkpoint from  model.ckpt-1000000
+train data size: 4786, validation data size: 0
+Training  :   0%|                                                                                                                                                    | 0/150 [00:00<?, ?it/s]
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+Training  : 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 150/150 [1:23:09<00:00, 33.26s/it, loss=0.394]
+Training  :   0%|                                                                                                                                                    | 0/150 [00:00<?, ?it/s]
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+Training  : 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 150/150 [1:23:55<00:00, 33.57s/it, loss=0.106]
+Training  :   0%|                                                                                                                                                    | 0/150 [00:00<?, ?it/s]
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+Training  : 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 150/150 [1:26:59<00:00, 34.80s/it, loss=0.0473]
+
+- model saved to: working/model/v1_K5_epochs3_2.bin.biobert-base-cased
+
+Predicting:   0%|                                                                                                                                                                                                                                               | 0/150 [00:00<?, ?it/s]
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+Predicting: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 150/150 [07:31<00:00,  3.01s/it]
+
+Acc: 0.951      F1:0.942       P: 0.936   R: 0.949 
+
+
+AVG of 3 folds  |  Acc: 0.942    F1:0.934       P: 0.928   R: 0.941 
+
+
+ALL: 5982   TRAIN: 4786   TEST: 1196
+Building sklearn text classifier...
+BertClassifier(bert_model='biobert-base-cased', random_state=0,
+               validation_fraction=0.0)
+Loading biobert-base-cased model...
+Defaulting to linear classifier/regressor
+Loading Tensorflow checkpoint from  model.ckpt-1000000
+train data size: 4786, validation data size: 0
+Training  :   0%|                                                                                                                                                                                                                                               | 0/150 [00:00<?, ?it/s]
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+Training  : 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 150/150 [1:32:04<00:00, 36.83s/it, loss=0.38]
+Training  :   0%|                                                                                                                                                                                                                                               | 0/150 [00:00<?, ?it/s]
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+Training  : 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 150/150 [1:26:20<00:00, 34.54s/it, loss=0.0971]
+Training  :   0%|                                                                                                                                                                                                                                               | 0/150 [00:00<?, ?it/s]
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+Training  : 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 150/150 [1:26:27<00:00, 34.58s/it, loss=0.0393]
+
+- model saved to: working/model/v1_K5_epochs3_3.bin.biobert-base-cased
+
+Predicting:   0%|                                                                                                                                                                                                                                               | 0/150 [00:00<?, ?it/s]
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+Predicting: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 150/150 [06:49<00:00,  2.73s/it]
+
+Acc: 0.943      F1:0.935       P: 0.933   R: 0.937 
+
+
+AVG of 4 folds  |  Acc: 0.942    F1:0.935       P: 0.929   R: 0.940 
+
+
+ALL: 5982   TRAIN: 4786   TEST: 1196
+Building sklearn text classifier...
+BertClassifier(bert_model='biobert-base-cased', random_state=0,
+               validation_fraction=0.0)
+Loading biobert-base-cased model...
+Defaulting to linear classifier/regressor
+Loading Tensorflow checkpoint from  model.ckpt-1000000
+train data size: 4786, validation data size: 0
+Training  :   0%|                                                                                                                                                                                                                                               | 0/150 [00:00<?, ?it/s]
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+Training  : 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 150/150 [1:25:56<00:00, 34.37s/it, loss=0.396]
+Training  :   0%|                                                                                                                                                                                                                                               | 0/150 [00:00<?, ?it/s]
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+Training  : 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 150/150 [1:26:24<00:00, 34.56s/it, loss=0.11]
+Training  :   0%|                                                                                                                                                                                                                                               | 0/150 [00:00<?, ?it/s]
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+Training  : 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 150/150 [1:25:54<00:00, 34.36s/it, loss=0.042]
+
+- model saved to: working/model/v1_K5_epochs3_4.bin.biobert-base-cased
+
+Predicting:   0%|                                                                                                                                                                                                                                               | 0/150 [00:00<?, ?it/s]
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+
+- GPU_ID: 0 # Only GPU with index 0 is the fastest; in my case, it is TITAN Xp
+- BERT model: biobert-base-cased
+- RANDOM_STATE: 0
+- K_FOLDS: 5
+- EPOCHS: 3
+- MAX_SEQ_LENGTH: 128
+- TRAIN_BATCH_SIZE: 32
+- LEARNING_RATE: 2e-05
+
+Predicting: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 150/150 [07:18<00:00,  2.92s/it]
+
+Acc: 0.947      F1:0.940       P: 0.941   R: 0.939 
+
+
+AVG of 5 folds  |  Acc: 0.943    F1:0.936       P: 0.931   R: 0.940 
+
+       Acc  size      P      R     F1    P_0    R_0   F1_0    P_1    R_1   F1_1    P_2    R_2   F1_2
+0    0.933  1197  0.921  0.931  0.926  0.957  0.937  0.947  0.887  0.926  0.906  0.920  0.930  0.925
+1    0.942  1197  0.927  0.944  0.935  0.970  0.945  0.958  0.898  0.919  0.908  0.913  0.968  0.940
+2    0.951  1196  0.936  0.949  0.942  0.976  0.954  0.965  0.915  0.943  0.928  0.917  0.951  0.934
+3    0.943  1196  0.933  0.937  0.935  0.963  0.954  0.959  0.901  0.922  0.912  0.935  0.935  0.935
+4    0.947  1196  0.941  0.939  0.940  0.963  0.955  0.959  0.909  0.949  0.929  0.949  0.914  0.931
+avg  0.943  1196  0.932  0.940  0.936  0.966  0.949  0.957  0.902  0.932  0.917  0.927  0.939  0.933
+- get pred csv file: working/pred/v1_train_K5_epochs3.csv.biobert-base-cased
+
+output all 5-fold test results to: "working/pred/v1_train_K5_epochs3.csv.biobert-base-cased"
+
+
+time used: 125787.9 seconds
