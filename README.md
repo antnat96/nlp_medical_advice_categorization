@@ -1,4 +1,4 @@
-# nlp_medical_advice_categorization
+# NLP Medical Advice Categorization Reproducibility Project
 Anthony Natale &amp; Patrick Horne Final Project for spring 2022 Natural Language Processing class at East Carolina University
 
 # Contributors
